@@ -1,0 +1,56 @@
+body {
+
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    background-image: url("bgls.png");
+    font-family:cursive;
+    color: darkcyan;
+
+}
+
+#container {
+    background: rgb(255, 237, 237,0.75);
+    max-width: 30%;
+    max-height: fit-content;
+    
+    align-items: center;
+    margin: auto;
+    border: 5px solid darkcyan;
+    border-radius: 20px;
+}
+h1 {
+    padding: 40px ;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 10px;
+    font-size: 45px;
+    text-align: center;
+}
+
+button {
+    font-family: cursive;
+    text-align: center;
+    font-size: 24px;
+    display: block;
+    margin: 30px auto;
+    border: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 8px 8px lightblue;
+    
+}
+
+#increment-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 94, 94);
+
+}
+
+#save-element{
+    font-size: 30px;
+}
